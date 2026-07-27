@@ -1,8 +1,17 @@
 aid: grapes
 name: Grapes
-description: 'Grapes is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Grape (Grape Protocol / GrapeDAO, built by Grape-Labs) is Solana-based
+  decentralized infrastructure that gives online communities and DAOs a set of
+  mainnet-ready primitives for identity, reputation, verification, access
+  control, rewards, and governance. Its products include OG (Vine) Reputation
+  Spaces for season-based on-chain reputation, Grape Verification for identity
+  attestation, the Grape Access Protocol (GPASS) for token/credential-gated
+  access, a GSPL DAO directory, a multi-chain Grape Wallet, and a suite of
+  Discord automation bots. Grape ships no REST/OpenAPI surface; developers
+  integrate through first-party TypeScript SDKs (npm) that wrap its Solana
+  programs directly. Backed by Multicoin Capital, it was surfaced as a VC
+  portfolio lead and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/grapes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://grapedao.org/icons/grape-512.png
 tags:
 - Company
 - Crypto Web3
+- Solana
+- DAO
+- Reputation
+- Governance
+- Access Control
+- Web3 Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://grapes.network
+  url: https://www.grapedao.org
+- type: DeveloperPortal
+  url: https://grapedao.gitbook.io
+- type: Documentation
+  url: https://grapedao.gitbook.io
+- type: GitHubOrganization
+  url: https://github.com/Grape-Labs
+- type: Support
+  url: https://discord.gg/grapedao
+- type: Packages
+  url: packages/grapes-packages.yml
+- type: SDKs
+  url: packages/grapes-packages.yml
+- type: LLMsTxt
+  url: llms/grapes-llms.txt
+- type: DomainSecurity
+  url: security/grapes-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

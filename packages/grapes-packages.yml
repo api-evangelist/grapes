@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org
+description: >-
+  First-party Grape (Grape Protocol / GrapeDAO, GitHub org Grape-Labs) client
+  libraries for its Solana on-chain programs. Verified against the public npm
+  registry (registry.npmjs.org); each package is an MIT-licensed TypeScript SDK
+  matching a Grape-Labs repository. Grape ships no REST/OpenAPI surface — these
+  SDKs wrap Solana programs (reputation, verification, access control, token
+  distribution) directly.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@grapenpm/vine-reputation-client"
+    url: https://www.npmjs.com/package/@grapenpm/vine-reputation-client
+    source: https://github.com/Grape-Labs/vine-reputation-npm
+    install: npm install @grapenpm/vine-reputation-client
+    version: 0.1.38
+    license: MIT
+    official: true
+    note: Composable client for the OG (Vine) Reputation Solana program.
+  - language: javascript
+    registry: npm
+    name: "@grapenpm/grape-verification-registry"
+    url: https://www.npmjs.com/package/@grapenpm/grape-verification-registry
+    source: https://github.com/Grape-Labs/grape-verification-npm
+    install: npm install @grapenpm/grape-verification-registry
+    version: 0.2.1
+    license: MIT
+    official: true
+    note: Client helpers for the Grape Verification Registry Solana program.
+  - language: javascript
+    registry: npm
+    name: "@grapenpm/grape-access-sdk"
+    url: https://www.npmjs.com/package/@grapenpm/grape-access-sdk
+    source: https://github.com/Grape-Labs/grape-access-sdk
+    install: npm install @grapenpm/grape-access-sdk
+    version: 0.2.0
+    license: MIT
+    official: true
+    note: SDK for the Grape Access Protocol (GPASS) — composable access control for Solana DAOs.
+  - language: javascript
+    registry: npm
+    name: grape-distributor-sdk
+    url: https://www.npmjs.com/package/grape-distributor-sdk
+    source: https://github.com/Grape-Labs/grape-distributor-sdk
+    install: npm install grape-distributor-sdk
+    version: 0.1.6
+    license: MIT
+    official: true
+    note: TypeScript SDK for the Grape Merkle Distributor Solana program.
