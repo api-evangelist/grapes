@@ -45,6 +45,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://grapedao.org/icons/grape-512.png
+x-docs-platform: gitbook
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
 - Company
 - Crypto Web3
@@ -54,6 +57,7 @@ tags:
 - Governance
 - Access Control
 - Web3 Infrastructure
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
